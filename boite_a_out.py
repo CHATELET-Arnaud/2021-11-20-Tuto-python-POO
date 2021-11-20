@@ -1,4 +1,5 @@
-class BoiteAOutils:
+class ToolBox:
+    """Boite à outils"""
     def __init__(self):
         self.outils = set()
     def ajouter(self, outil):
@@ -6,7 +7,8 @@ class BoiteAOutils:
     def enlever(self, outil):
         self.outils.pop(outil)
 
-class Marteau:
+class Hammer:
+    """Marteau"""
     def __init__(self):
         self.couleur = "red"
     def planter_clou():
@@ -14,7 +16,8 @@ class Marteau:
     def retirer_clou():
         pass
 
-class Tournevis:
+class Screwdriver:
+    """Tournevis"""
     def __init__(self):
         self.taille = 5
     def serrer_vis():
